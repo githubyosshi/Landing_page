@@ -141,9 +141,23 @@ header {
   color: #b3aeb5;
 }
 
+.message-wrapper {
+  border-bottom: 1px solid #eee;  /* paddingの外側のラインを引く */
+  padding-bottom: 80px;
+  text-align: center;
+}
+
 .message {
-  background: #5dca88;
+  background-color: #5dca88;
   padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+/* ボタンをクリックした時、凹ます */
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
 
 .heading h3 {
