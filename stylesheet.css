@@ -141,6 +141,10 @@ header {
   color: #b3aeb5;
 }
 
+.heading h3 {
+  font-weight: normal;
+}
+
 .message-wrapper {
   border-bottom: 1px solid #eee;  /* paddingの外側のラインを引く */
   padding-bottom: 80px;
@@ -160,6 +164,15 @@ header {
   top: 7px;
 }
 
-.heading h3 {
-  font-weight: normal;
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
