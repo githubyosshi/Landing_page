@@ -1,10 +1,14 @@
 /* タブレット向けレイアウト */
-
+@media all and (max-width: 1000px) {
 /* ブレイクポイントが1000px以下のときのメディアクエリを設定 */
-@media (max-width: 1000px) {
+
   .lesson {
     width: 50%;
     margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
   }
 
   .top-wrapper h1 {
@@ -12,23 +16,18 @@
   }
 
   .heading h2 {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
 /* スマホ向けレイアウト */
-
 /* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
 /* .lessonのwidthを100%に指定してください */
   .lesson {
     width: 100%;
   }
 
-/* <footer>の中身を中央寄せにしてください。 */
-  footer {
-    text-align: center;
-  }
 
   .btn {
     width: 100%;
@@ -40,6 +39,14 @@
 
   .top-wrapper {
     text-align: left;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
   }
 
   .top-wrapper h1 {

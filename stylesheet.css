@@ -40,6 +40,7 @@ a {
 }
 
 .btn-wrapper {
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -81,8 +82,8 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position: fixed;
-  top: 0px;
+  position :fixed;
+  top: 0;
   z-index: 10;
 }
 
@@ -111,6 +112,14 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 .lesson-wrapper {
@@ -142,15 +151,15 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 44px;
+  top: 44%;
   width: 100%;
   color: white;
 }
 
-.txt-contents {
+.text-contents {
   width: 80%;
   display: inline-block;
-  margin: 15px;
+  margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
 }
